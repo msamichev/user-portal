@@ -7,13 +7,13 @@ public interface UserService {
     User create(User user);
 
 
-    User delete(int id);
+    User delete(long id);
 
 
     List findAll();
 
 
-    User findById(int id);
+    User findById(long id);
 
 
     User update(User user);
